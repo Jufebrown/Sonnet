@@ -16,5 +16,4 @@ console.log(theSonnet.replace("winter","yuletide"));
 console.log(theSonnet.split(" the ").join(" a large ").split(" The ").join(" A large "));
 
 // Set the content of the sonnet div with the new string
-var newSonnet = theSonnet.split(" the ").join(" a large ")
-document.getElementById("sonnet").innerHTML = newSonnet;
+document.getElementById("sonnet").innerHTML = theSonnet.split(" the ").join(" a large ").split(" The ").join(" A large ");
