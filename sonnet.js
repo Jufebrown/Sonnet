@@ -1,5 +1,5 @@
 // Take the contents of the sonnet div and place it in a variable
-var theSonnet = document.getElementById("sonnet").innerHTML;
+const theSonnet = document.getElementById("sonnet").innerHTML;
 console.log(theSonnet);
 
 // Find and output the starting position of the word "orphans"
